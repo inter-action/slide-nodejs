@@ -16,6 +16,15 @@
 ### 网络协议的编码
 <img src="./assets/IPS data encapsulation.png" width="640">
 
+
+ethernet:
+
+<img src="./assets/ethernet structure.png" width="640">
+
+ip:
+
+<img src="./assets/ip structure.png" width="640">
+
 ### big and little endian
 
 <img src="./assets/big and little endian.png" width="640">
@@ -48,6 +57,7 @@
 
 * sockets
 * 环境变量
+    * 数据库连接的密码
 
 
 ### <span style="color:blue;">protection ring<span>
@@ -76,6 +86,11 @@
 context switching
 
 <img src="./assets/process context switch.png" width="640">
+
+process exit code: 
+
+>An exit code, or sometimes known as a return code, is the code returned to a parent process by an executable. On POSIX systems the standard exit code is 0 for success and any number from 1 to 255 for anything else
+
 
 
 ### <span style="color:blue;">线程<span>
@@ -177,6 +192,9 @@ neo4j:
 
 <img src="./assets/neo4j.png" width="320">
 
+推荐系统
+* 共同好友
+
 
 redis:
 
@@ -233,3 +251,5 @@ redis:
 ## reference 
 
 * book: *Attacking.Network.Protocols.2017.12*
+* book: *[核心网络协议袖珍手册].(Packet.Guide.to.Core.Network.Protocols).Bruce.Hartpence.文字版*
+* book: *深入理解计算机系统（原书第3版*
