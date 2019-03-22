@@ -10,6 +10,9 @@
 
 <img src="./assets/detailed-OSI-model.png" width="640">
 
+问题:
+* 路由器/switch需要支持http协议么
+
 ### 网络协议的编码
 <img src="./assets/IPS data encapsulation.png" width="640">
 
@@ -37,7 +40,7 @@
 * 线程
     * race condition:
 
-* 执行文件
+* 执行文件 (elf)
 
 * IO
     * poll
@@ -160,15 +163,14 @@ docker 的优势:
     * mysql, oracle, sqlite
 
 * NoSQL:
-    * mongodb, neo4j, 
+    * mongodb, neo4j, redis
 
-###
 
 ### SQL vs NoSQL database :
 
 SQL:
 
-<img src="./assets/CAP Theorem .png" width="640">
+<img src="./assets/sql is like excel table.png" width="640">
 
 
 neo4j:
@@ -176,14 +178,29 @@ neo4j:
 <img src="./assets/neo4j.png" width="320">
 
 
+redis:
+
+* 共享 cookie.
+* 数据缓存: redis 支持带expire的数据解构
+* Pub/Sub
+* 消息队列
+
+
+### [Why-do-we-need-database](https://www.quora.com/Why-do-we-need-database)
+
+<img src="./assets/Why do we need database.png" width="640">
+
+
 ### <a href="https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e" style="color:blue;">CAP Theorem:</a>
 
-<img src="./assets/CAP Theorem .png" width="640">
+<img src="./assets/CAP Theorem.png" width="640">
 
 
+<img src="./assets/CAP Theorem detailed.png" width="640">
 
+## web安全
 
-
+* [Web 安全入门之常见攻击](https://zhuanlan.zhihu.com/p/23309154)
 
 
 ## 其他
@@ -203,7 +220,15 @@ neo4j:
 
 * 消息队列: 生产端/消费端.
 
-* 代理:
+* Pub/Sub: mqtt
+
+<img src="./assets/pubsub.png" width="320">
+
+* 代理: 
+
+
+
+
 
 ## reference 
 
